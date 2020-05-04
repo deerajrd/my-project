@@ -1,0 +1,31 @@
+#form {
+    display: block;
+    border: 7px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 70px;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+  }
+  
+  .btn-update{
+    float: left;
+    margin-left: 300px;
+  }
+  .btn-delete{
+    float: right;
+     margin-right: 300px;
+  } 
+  header.full-width .container,
+  header.full-width .container .sixteen.columns {
+    width: 100%;
+    padding-left: 20px;
+    box-sizing: border-box;
+    float: left;
+    margin: 0;
+  }
+  
+  .bttn{
+    float: center;
+  }  
