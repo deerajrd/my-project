@@ -28,6 +28,7 @@ import Empdashboard from './edashboard/Empdashboard'
 import Addemp from './edashboard/Addemp'
 import Centersignup from './pages/Centersignup'
 import Centerlogin from './pages/Centerlogin'
+import MainAdmin from './Admindashboard/MainAdmin'
 
 //import CenterNavbar from './cdashboard/CenterNavbar'
 
@@ -62,6 +63,7 @@ function App() {
       <Route exact path="/addemp/" component={Addemp}/>
       <Route exact path="/centerlogin/" component={Centerlogin}/>
       <Route exact path="/centersignup/" component={Centersignup}/>
+      <Route exact path="/mainadmin/" component={MainAdmin}/>
       <Route component={Error}/>
       
       </Switch>

@@ -9,7 +9,7 @@ export default class Centerdashboard extends Component {
         return (
             <>
             <CenterNavbar/>
-            <div className='defaultHero'>
+            <div className='centerHero'>
            <Banner title="Welcome to Center Dashboard" >
                 <Link to="/createevent" className="btn-primary">
                     Create Event

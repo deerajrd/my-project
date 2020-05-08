@@ -176,6 +176,21 @@ h6 {
   background-image: url("./images/ourevent1.jpg");
   min-height: 60vh;
 }
+
+.centerHero{
+  min-height: calc(100vh - 66px);
+  background: url("./images/center.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.employeeHero{
+  min-height: calc(100vh - 66px);
+  background: url("./images/employee.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* End of Hero */
 /* Banner */
 .banner {
@@ -1391,11 +1406,11 @@ light green: #A3C4BC
   background-color: #ffffff;
 }
 
-form {
+/*form {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-}
+}*/
 
 h1 {
   text-align: center;

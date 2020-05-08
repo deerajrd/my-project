@@ -28,6 +28,8 @@ export default class EmpNavbar extends Component {
                         <div class="topnav-right">
                         <li><Link  to="/events">Notifications</Link></li>
                         
+                        <li><Link  to="/events">My Job</Link></li>
+                        
                         </div>
                         </ul>
                          {/* <li><Link to="/login">Login</Link> */}

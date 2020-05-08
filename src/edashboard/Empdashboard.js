@@ -10,10 +10,10 @@ export default class Empdashboard extends Component {
         return (
             <div>
                <EmpNavbar/>
-            <div className='defaultHero'>
+            <div className='employeeHero'>
            <Banner title="Welcome to Employee Dashboard" >
-                <Link to="/createevent" className="btn-primary">
-                    Create Event
+                <Link to="/addemp" className="btn-primary">
+                    Create Profile
                 </Link>
             </Banner>
             </div>
